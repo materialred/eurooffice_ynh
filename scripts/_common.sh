@@ -60,7 +60,7 @@ setup_sources() {
     mkdir -p "$conf_dir"
     ynh_setup_source --dest_dir="$install_dir/deb"
     pushd "$install_dir/deb"
-    ar vx "$install_dir/deb/eurooffice-documentserver.deb"
+    ar vx "$install_dir/deb/onlyoffice-documentserver.deb"
 
     # We use the .deb cause tar.xz doesn't contains submodules and management scripts
     tar xf "$install_dir/deb/data.tar.xz"

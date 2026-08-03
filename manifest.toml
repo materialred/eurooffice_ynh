@@ -13,10 +13,10 @@ maintainers = []
 
 [upstream]
 license = "AGPL-3.0-or-later"
-#website = "https://www.onlyoffice.com"
-#demo = "https://www.onlyoffice.com/fr/download-desktop.aspx"
+#website = "https://www.eurooffice.com"
+#demo = "https://www.eurooffice.com/fr/download-desktop.aspx"
 code = "https://github.com/Euro-Office/DocumentServer"
-#cpe = "cpe:2.3:a:onlyoffice:document_server"
+#cpe = "cpe:2.3:a:eurooffice:document_server"
 
 [integration]
 yunohost = ">= 12.1.39"
@@ -94,7 +94,7 @@ arbitrary-limitations.fr = "La version officielle d'Euro-Office limite le nombre
     # Autoupdater disabled because keeps failing everyday, because no tag found after sanity filtering
     # autoupdate.strategy = "latest_github_tag"
     # autoupdate.version_regex = "^v9.*$"
-    # autoupdate.upstream = "https://github.com/ONLYOFFICE/server"
+    # autoupdate.upstream = "https://github.com/eurooffice/server"
     
 #    [resources.sources.fonts]
 #    url = "https://forge.liiib.re/indiehost/libre.sh/fonts/-/archive/4f5ad93ee65a862bddfc70eb48ac98e531968da7/fonts-4f5ad93ee65a862bddfc70eb48ac98e531968da7.tar.gz"

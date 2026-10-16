@@ -60,7 +60,7 @@ popd
 # SETUP DATABASE
 #=================================================
 ynh_script_progression "Populating postgresql database $app..."
-
+ynh_psql_create_db --database="$db_name" --user="$db_name"
 db_dump="$install_dir/documentserver/server/schema/postgresql/createdb.sql"
 echo "alter table doc_changes owner to $db_name;" >> $db_dump
 echo "alter table task_result owner to $db_name;" >> $db_dump
